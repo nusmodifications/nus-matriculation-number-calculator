@@ -24,5 +24,5 @@ var calculateNUSMatricNumber = function (id) {
 $(function () {
     $('input').on('change keyup', function () {
         $('span').text(calculateNUSMatricNumber(this.value) || 'Invalid input!');
-    });
+    }).focus();
 });
