@@ -1,5 +1,0 @@
----
- name: NUS Matriculation Number Calculator
- description: Calculates correct NUS matriculation number with check digit, given matriculation number with missing / wrong check digit, NUSNET ID or NUS email address, with either U or A prefix.
- authors:
-   - Beng Hee Eu 
